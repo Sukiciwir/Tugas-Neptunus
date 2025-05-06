@@ -1,0 +1,95 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Neptune - The Ice Giant</title>
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#Utama">Utama</a></li>
+                    <li><a href="#Tentang">Tentang</a></li>
+                    <li><a href="#Fakta">Fakta</a></li>
+                    <li><a href="#Galeri">Galeri</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="background">
+    </section>
+        <section id="Utama" class="hero">
+            <div class="hero-content">
+                <h1>Neptunus</h1>
+                <p>The Mysterious Ice Giant of Our Solar System</p>
+            </div>
+            <model-viewer
+                src="./models/neptune.glb"
+                alt="3D model of Neptune"
+                auto-rotate
+                background-color="#000000"
+                shadow-intensity="1"
+                exposure="1"
+                ar
+            ></model-viewer>
+            
+        </section>
+    
+        <section id="Tentang" class="content-section">
+            <h2>Apa itu Neptunus</h2>
+            <p>
+             Neptunus adalah planet ke - 8 dan paling jauh dari matahari di dalam tata surya. Planet ini adalah planet dengan diameter  terbesar ke - 4, planet terbesar ke - 3 dan planet raksasa terpadat di tata surya.
+            </p>
+        </section>
+    
+        <section id="Fakta" class="content-section">
+            <h2>Fakta - fakta neptunus</h2>
+            <div class="facts-grid">
+                <div class="fact-card">
+                    <h3>Size</h3>
+                    <p>Neptunus itu ukurannya 4x lebih besar dibanding bumi</p>
+                </div>
+                <div class="fact-card">
+                    <h3>Jarak dari matahari</h3>
+                    <p>Sekitar 4.506.163.200 km</p>
+                </div>
+                <div class="fact-card">
+                    <h3>Bulan / Satelit</h3>
+                    <p>Diketahui memiliki 14 satelit di sekitarnya</p>
+                </div>
+                <div class="fact-card">
+                    <h3>Temperatur</h3>
+                    <p>-214°C (-353°F)</p>
+                </div>
+            </div>
+        </section>
+    
+        <section id="Galeri" class="content-section">
+            <h2>Galeri</h2>
+            <div class="image-gallery-container">
+                <div class="image-gallery">
+                    <img src="./img/poto1.jpg" alt="Gallery Image 1" class="gallery-image">
+                </div>
+                <div class="image-gallery">
+                    <img src="./img/poto2.jpg" alt="Gallery Image 2" class="gallery-image">
+                </div>
+                <div class="image-gallery">
+                    <img src="./img/poto3.jpg" alt="Gallery Image 3" class="gallery-image">
+                </div>
+                <div class="image-gallery">
+                    <img src="./img/poto4.jpg" alt="Gallery Image 4" class="gallery-image">
+                </div>
+            </div>
+        </section>
+    
+        <footer>
+            <p>&copy; 2025 Kelompok 9. All rights reserved.</p>
+        </footer>
+    </body>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</body>
+</html>
